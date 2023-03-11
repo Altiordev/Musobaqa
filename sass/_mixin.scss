@@ -1,0 +1,49 @@
+@mixin forTablet {
+    @media screen and (max-width: 1024px) {
+        @content;
+    }
+}
+
+@mixin forMobile {
+    @media screen and (max-width: 720px) {
+        @content;
+    }
+}
+
+@mixin fornewsHeader {
+    @media screen and (max-width: 1380px) {
+        @content;
+    }
+}
+
+@mixin fornewsHeadernext {
+    @media screen and (max-width: 1350px) {
+        @content;
+    }
+}
+
+@mixin fornewsHeaderlast {
+    @media screen and (max-width: 1250px) {
+        @content;
+    }
+}
+
+@mixin fornewstablet {
+    @media screen and (max-width: 1200px) {
+        @content;
+    }
+}
+
+@mixin forlargemobile {
+    @media screen and (max-width: 880px) {
+        @content;
+    }
+}
+
+
+@mixin bp1 {
+    @media screen and (max-width: 1200px) {
+        @content;
+    }
+}
+

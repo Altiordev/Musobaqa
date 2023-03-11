@@ -1,0 +1,84 @@
+footer {
+    position: relative;
+    z-index: -5;
+    padding: 81px 0;
+    background: rgba(14, 16, 20, 0.9);
+    border-top: 1px solid #4E4E4E;
+    backdrop-filter: blur(1px);
+    border-radius: 20px 20px 0px 0px;
+    color: $whiteColor;
+    font-family: $novaFont;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    @include forTablet {
+        flex-direction: column;
+        row-gap: 25px;
+    }
+}
+
+.logo_bottom {
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 66px;
+    letter-spacing: 0.06em;
+    color: $whiteColor;
+    @include forMobile {
+        display: none;
+    }
+}
+
+.logo_bottom.mobile {
+    display: none;
+    font-family: $bananaFont;
+    font-weight: 400;
+    display: none;
+    @include forMobile {
+        display: block;
+    }
+}
+
+.adress-bottom {
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+    &__item {
+        display: flex;
+        flex-direction: column;
+        a {
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 156%;
+            color: $whiteColor;
+        }
+    }
+}
+
+.phone-bottom {
+    display: flex;
+    flex-direction: column;
+    row-gap: 23px;
+    &__item {
+        display: flex;
+        align-items: center;
+        column-gap: 14px;
+        a {
+            color: $whiteColor;
+        }
+    }
+}
+
+.socials-bottom {
+    display: flex;
+    align-items: center;
+    column-gap: 24px;
+    a {
+        transition: .3s ease;
+        &:hover {
+            transform: scale(1.4);
+        }
+    }
+}

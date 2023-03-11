@@ -1,0 +1,154 @@
+.portfolio_form{
+    background: rgba(14, 16, 20, 0.6);
+    border: 1px solid #4E4E4E;
+    backdrop-filter: blur(1px);
+    border-radius: 20px;
+    width: 94%;
+    margin: auto;
+}
+
+.form__left-h2{
+    font-family:$novaFont;
+    font-style: italic;
+    font-weight: 600;
+    margin-bottom: 40px;
+    font-size: 32px;
+    max-width: 640px;
+    line-height: 39px;
+    color: #e8e6e6;
+}
+.form_left{
+    padding:80px 70px 60px 60px;
+
+}
+.form{
+    input{
+        outline: none;
+        border: none;
+        background-color: transparent;
+        border-bottom:1px solid #AAAAAA;
+        width: 499px;
+        display: block;
+        margin-bottom: 40px;
+        color: white;
+        font-size: 20p
+    }
+    
+}
+.checkbox{
+    display:flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.checked{
+    display: flex;
+    justify-content: flex-start;
+}
+.form_checkbox{
+    input{
+       display: block;
+    }
+}
+.form_check_h2{
+    font-family: $novaFont;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+
+color: #FFFFFF;
+
+
+}
+.form_checkbox_flex
+{
+display: flex;
+align-items: center;
+label{
+    color: white;
+    padding-left: 10px;
+    font-family: $novaFont;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+
+/* identical to box height */
+
+color: #FFFFFF;
+}
+}
+.responsive_form{
+    display: flex;
+    margin-top: 34px;
+    column-gap: 100px;
+}
+.form_checkbox_flex{
+    margin-bottom: 30px;
+}
+.form_right{
+    background: #5353531A;  
+    box-shadow: 20px 20px 40px rgba(241, 216, 253, 0.08);
+    height: 602px;
+    border-radius: 10px;
+    border-radius: 10px;
+    width: 487px;
+    h4{
+        font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+text-align: center;
+padding-top: 40px;
+color: #FFFFFF;
+
+
+    }
+
+}
+.portfolio_form{
+    display: flex;
+    align-items: center;
+    padding-right: 80px;
+    @include forTablet{
+        display: block;
+    }
+}
+.port_image
+{
+display: flex;
+column-gap: 68px;
+}
+.port_image1{
+    margin-bottom: 100px;
+}
+.form_right_image{
+    margin: 0 auto;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.form_right{
+    position: relative;
+    
+}
+@media (max-width:1020px){
+    .form{
+        input{
+            width: 300px;
+        }
+    }
+    .form_left{
+        margin:0 auto ;
+        display: block;
+    }
+    .form_right{
+        margin: 0 auto;
+        display: block;
+        justify-content: center;
+        width: 400px;
+    }
+}

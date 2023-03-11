@@ -1,0 +1,131 @@
+.h1{
+    font-family: $novaFont;
+    font-style: normal;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 40px;
+    font-size: 36px;
+    line-height: 44px;
+    color: #FFFFFF;
+    @include forMobile{
+        font-size: 24px;
+    }
+}
+.portfolio__tittle{
+    margin-bottom: 40px;
+}
+.portfolio__tittle-buttons{
+    width: 664px;
+    border-radius: 90px;
+    background: rgba(17, 19, 23, 0.5);
+    backdrop-filter: blur(2px);
+    border: 0.3px solid #4E4E4E;
+    height: 55px;
+    height: 100%;
+    display: block;
+    margin: auto;
+    .portfolio__button{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .port__button_hover{
+            background: transparent;
+        }
+    }
+    .gradients{
+        background: linear-gradient(93.5deg, #1E11AD 12.37%, rgba(105, 17, 173, 0.95) 85.28%);
+        transition: 0.3s;
+    }
+    .btn_prt{
+        background: linear-gradient(93.5deg, #1E11AD 12.37%, rgba(105, 17, 173, 0.95) 85.28%);
+
+    }
+    button{
+    border-radius: 30px;
+    font-family: $novaFont;
+    transition: 0.3s;
+    background-color: transparent;
+    font-style: normal;
+    font-weight: 600;
+    padding: 15px 32px;
+    height: 100%;
+    border: none;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+   }
+   @include forMobile{
+    display: none;
+   }
+}
+.cards_grid{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin-bottom: 120px;
+    justify-content: center;
+    column-gap:30px;
+    row-gap: 30px;
+    height: 100%;
+    img{
+        border-radius: 20px;
+        max-width: 403px;
+        @include forMobile{
+            margin: 0 auto;
+            max-width: 350px;
+            justify-content: center;
+        }
+    }
+    .portfolio__buttons{
+        padding: 9px 30px;
+        border: none;
+        background: #FFFFFF;
+        box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        z-index: 2;
+        right: 60px;
+        top: 15px;
+        }
+    @include forMobile{
+        margin: 0 auto;
+        justify-content: center;
+        place-self: center;
+        
+    }
+}
+.card_grid_child{
+    position: relative;
+}
+.card_grid_child_child{
+    position: absolute;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 93%;
+    opacity: 0;
+    transition: 0.2s linear;
+    height: 90%;
+    background-color: rgba(0, 0, 0, 0.9);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    img{
+        position: absolute;
+        right: 0;
+    }
+    h3{
+    font-family: $novaFont;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    color: #FFFFFF;
+    }
+
+}
+.card_grid:hover .card_grid_child_child{
+    transition: 0.3s ease-in-out;
+    opacity: 1;
+}

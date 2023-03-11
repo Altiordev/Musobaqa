@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('ProximaNova-Black.eot');
+    src: local('Proxima Nova Black'), local('ProximaNova-Black'), url('ProximaNova-Black.eot?#iefix') format('embedded-opentype'), url('ProximaNova-Black.woff2') format('woff2'), url('ProximaNova-Black.woff') format('woff'), url('ProximaNova-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('ProximaNova-Extrabld.eot');
+    src: local('Proxima Nova Extrabold'), local('ProximaNova-Extrabld'), url('ProximaNova-Extrabld.eot?#iefix') format('embedded-opentype'), url('ProximaNova-Extrabld.woff2') format('woff2'), url('ProximaNova-Extrabld.woff') format('woff'), url('ProximaNova-Extrabld.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('ProximaNova-Regular.eot');
+    src: local('Proxima Nova Regular'), local('ProximaNova-Regular'), url('ProximaNova-Regular.eot?#iefix') format('embedded-opentype'), url('ProximaNova-Regular.woff2') format('woff2'), url('ProximaNova-Regular.woff') format('woff'), url('ProximaNova-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('ProximaNova-SemiboldIt.eot');
+    src: local('Proxima Nova Semibold Italic'), local('ProximaNova-SemiboldIt'), url('ProximaNova-SemiboldIt.eot?#iefix') format('embedded-opentype'), url('ProximaNova-SemiboldIt.woff2') format('woff2'), url('ProximaNova-SemiboldIt.woff') format('woff'), url('ProximaNova-SemiboldIt.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('ProximaNova-Semibold.eot');
+    src: local('Proxima Nova Semibold'), local('ProximaNova-Semibold'), url('ProximaNova-Semibold.eot?#iefix') format('embedded-opentype'), url('ProximaNova-Semibold.woff2') format('woff2'), url('ProximaNova-Semibold.woff') format('woff'), url('ProximaNova-Semibold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
